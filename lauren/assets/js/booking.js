@@ -71,11 +71,13 @@
   if (takeOverIframe()) {
     window.location = 'https://squareup.com/appointments/buyer/widget/j5095gutc2rvgd/LCTC0R0AXTAVF';
   } else {
-    if (scriptParentWidth() < 280) {
-      embedBookingButton();
-    } else {
-      embedIframe();
-    }
+
+    embedIframe();
+ //   if (scriptParentWidth() < 280) {
+ //     embedBookingButton();
+ //   } else {
+ //     embedIframe();
+ //   }
 
   }
 
