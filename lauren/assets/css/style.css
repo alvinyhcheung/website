@@ -629,7 +629,7 @@ section {
 
 @media (max-width: 768px) {
   .steps .content-item {
-    padding: 40px 0;
+    padding: 40px 20px;
   }
 }
 
